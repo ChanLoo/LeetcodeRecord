@@ -1,7 +1,7 @@
 '''
 @Author: Chandler Lo
 @Date: 2020-02-28 10:28:04
-@LastEditTime: 2020-02-28 10:28:55
+@LastEditTime: 2020-02-28 21:09:29
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /LeetcodeRecord/AddTwoNumber_1.py
@@ -15,6 +15,7 @@ class ListNode:
 
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        # 75ms 13.5MB
         head = cur = ListNode(0)
         sign = 0
         while l1 and l2:
