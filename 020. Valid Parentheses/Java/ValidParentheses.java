@@ -1,6 +1,7 @@
 public class ValidParentheses {
     public boolean isValid(String s) {
         // 2ms 37.6MB
+        // TODO Optimization
         Stack<Character> st = new Stack<Character>();
         char[] c = s.toCharArray();
         for(char cc : c){
